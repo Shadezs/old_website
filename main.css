@@ -13,7 +13,8 @@ html {
 .pic
 {
     display: block;
-    margin-left: 50%;
+    width: 20%;
+    margin-left: 5%;
     margin-right: -50%;
 }
 .container
@@ -36,10 +37,24 @@ html {
     text-align: center;
     white-space: nowrap;
     overflow: hidden;transform: translateY(35vh);
+/*this is for the footer it has icon*/
+}a[href*="https://www.linkedin.com/"] {
+    /*<!--Thanks to https://fontawesome.com/icons/ for the icons-->*/
+     background:url(./images/linkedin-brands.svg) no-repeat left center;
+     padding-left:19px;
+ }
 
+a[href*="https://github.com/"] {
+    background:url(./images/github-brands.svg) no-repeat left center;
+    padding-left:19px;
+}
+a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
+    background:url(./images/envelope-square-solid.svg) no-repeat left center;
+    padding-left:19px;
 }
 #foot
 {
+
     position: fixed;
     left: 0;
     bottom: 0;
@@ -69,6 +84,7 @@ html {
     margin-top: 30px;
     margin-right: 20rem;
     margin-left: 20rem;
+    padding-bottom: 10rem;
 
 }
 .main-nav li
@@ -104,8 +120,9 @@ html {
 {
     padding-right: 20px;
     padding-left: 20px;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-right: 20%;
+    margin-top: -30%;
 }
 .about-cont
 {
@@ -113,21 +130,44 @@ html {
 }
 /*End about*/
 
-/*Start services*/
-/*End services*/
+/*thanks to w3 school for the help on the picture grid*/
+/*Start pictures*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 
-/*Start portfolio*/
-/*End services*/
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
 
-/*Start timeline*/
-/*End timeline*/
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+/*End pictures*/
 
 /*Start contact*/
 /* Style inputs */
+/*this is for the contact form i was working on but i still need to fix it*/
 #contact .container h2
 {
    font-size: 30px;
 }
+/*
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -148,15 +188,16 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+*/
 
 /* Style the container/contact section */
-.container {
+/*.container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
+!* Create two columns that float next to eachother *!
 .column {
     float: left;
     width: 50%;
@@ -164,12 +205,12 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-/* Clear floats after the columns */
+!* Clear floats after the columns *!
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 /*
 #contact h1
 {
