@@ -146,6 +146,7 @@ a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
 }
 
 .column img {
+    margin-left: 35%;
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
