@@ -4,7 +4,7 @@ $(document).ready(function () {
         strings :['Hi,My name is carlos','And welcome to my page','im still working on it '] ,/// may add something else
         typeSpeed:40,
         backSpeed:20,showCursor:true,
-        loop:true
+        loop:false
 
     });
     function openTab(th)
