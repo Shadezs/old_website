@@ -25,23 +25,24 @@ html {
     margin: 0 auto;
     position:  relative;
 }
-
 #typewriter
 {
+
     left: 0;
-    top: 190%;
+    top: 100%;
     width: 12em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,0.75);
     font-size: 390%;
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;transform: translateY(35vh);
+    overflow: hidden;transform: translateY(15vh); /*this controls the spacing from the top*/
 /*this is for the footer it has icon*/
 }a[href*="https://www.linkedin.com/"] {
     /*<!--Thanks to https://fontawesome.com/icons/ for the icons-->*/
      background:url(./images/linkedin-brands.svg) no-repeat left center;
      padding-left:19px;
+    padding-right: 10px;
  }
 
 a[href*="https://github.com/"] {
@@ -51,6 +52,7 @@ a[href*="https://github.com/"] {
 a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
     background:url(./images/envelope-square-solid.svg) no-repeat left center;
     padding-left:19px;
+
 }
 #foot
 {
@@ -61,8 +63,8 @@ a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
     width: 100%;
     color: black;
     text-align: left;
-    font-size: 15px;
-    padding-bottom: 5rem;
+    font-size: 20px;
+    padding-bottom: 4rem;
 }
 /*Start header*/
 .row
@@ -101,17 +103,12 @@ a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
     font-size: 5rem;
     padding: 1rem;
 }
-.main-nav li.active a
-{
-    border: 1px solid yellow;
-}
 .main-nav li a:hover,
 .main-nav li a:focus,.main-nav li a:active
 {
     background: linear-gradient(to top,#ffe838,#fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid yellow;
 }
 /*End header*/
 
