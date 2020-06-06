@@ -10,7 +10,7 @@ html {
     position: relative;
 
 }
-.pic
+.pictures
 {
     display: block;
     width: 20%;
@@ -54,7 +54,7 @@ a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
     padding-left:19px;
 
 }
-#foot
+#footer
 {
 
     position: fixed;
@@ -158,123 +158,8 @@ a[href*="mailto:davila_salazar_carlo@student.smc.edu"] {
 }
 /*End pictures*/
 
-/*Start contact*/
-/* Style inputs */
-/*this is for the contact form i was working on but i still need to fix it*/
-#contact .container h2
-{
-   font-size: 30px;
-}
-/*
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-*/
-
-/* Style the container/contact section */
-/*.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-}
-
-!* Create two columns that float next to eachother *!
-.column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-}
-
-!* Clear floats after the columns *!
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
-/*
-#contact h1
-{
-    font-size: 35px;
-    padding-top: 15rem;
-    text-align: left;
-    width: 70%;
-}
-#contact h6
-{
-    font-size: 25px;
-    text-align: left;
-*/
-
-
 body
 {
     width: 100%;
     height: 100%;
 }
-/*.contact.container  h1
-{
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 70px;
-    margin-left: 380px;
-}
-form
-{
-    border-color: black;
-    width: 70%;
-    margin: 0 auto;
-}
-form label
-{
-    font-size: 2.5rem;
-    color: #111111;
-}
-input,select,textarea
-{
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 10px;
-    border: none;
-    outline-color: #100f0f;
-
-}
-input
-{
-    width: initial;
-    background-color: #ffffff;
-    color: #eeeeee;
-    padding: 1rem;
-    border-radius:.8rem ;
-    cursor: pointer;
-    transition: background-color 600ms;
-}*/
-/*End contact*/
-
-/*Start footer*/
-/*End footer*/
-
-/*Start animations*/
-/*End animations*/
-
-/*Start media queries*/
-/*End media queries*/
