@@ -6,7 +6,7 @@ $(document).ready(function() {
         backSpeed: 20,
         showCursor: true,
         backDelay: 500,
-        cursorChar: '|',
+        cursorChar: '|',autoInsertCss:true,
         loop: true
 
     });

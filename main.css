@@ -1,10 +1,5 @@
     /*Start global*/
-    
-    html {
-        font-size: 10px;
-        font-family: 'Roboto', sans-serif;
-        color: #0c0c0c;
-    }
+
     
     .image {
         padding-right: 20%;
@@ -96,17 +91,7 @@
     /*End header*/
     /*Start about*/
     
-    .about {
-        padding-right: 20px;
-        padding-left: 20px;
-        margin-left: 30%;
-        margin-right: 20%;
-        margin-top: -30%;
-    }
-    
-    .about-cont {
-        font-size: 15px;
-    }
+
     /*End about*/
     /*thanks to w3 school for the help on the picture grid*/
     /*Start pictures*/
@@ -118,18 +103,7 @@
     }
     /* Create four equal columns that sits next to each other */
     
-    .column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-    }
-    
-    .column img {
-        margin-left: 35%;
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-    }
+
     /* Responsive layout - makes a two column-layout instead of four columns */
     
     @media screen and (max-width: 800px) {
