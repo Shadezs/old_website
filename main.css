@@ -22,6 +22,11 @@
         display: flex;
         justify-content: center;
     }
+    #copyright{
+        text-align: center;
+        padding-left: 43%;
+        padding-bottom: 30px;
+    }
     
     #typewriter {
         left: 0;

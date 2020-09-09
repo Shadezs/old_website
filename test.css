@@ -17,6 +17,8 @@
 }
 #typewriter {
     left: 0;
+    padding-top: 25%;
+    padding-bottom: 30%;
     top: 100%;
     width: 12em;
     margin: 0 auto;
@@ -25,14 +27,31 @@
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(15vh);
     /*this controls the spacing from the top*/
     /*Start header*/
 }
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+.image {
+    padding-right: 20%;
+    position: relative;
+}
 
-
+.pictures {
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: -50%;
+}
 .col-md-12 {
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: fixed;
+}
+#sticky-footer {
+    flex-shrink: 0;
 }
