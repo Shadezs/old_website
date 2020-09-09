@@ -25,7 +25,8 @@
     
     #typewriter {
         left: 0;
-        top: 100%;
+        padding-top: 25%;
+        padding-bottom: 25%;
         width: 12em;
         margin: 0 auto;
         border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -33,11 +34,19 @@
         text-align: center;
         white-space: nowrap;
         overflow: hidden;
-        transform: translateY(15vh);
+        /*transform: translateY(15vh);*/
         /*this controls the spacing from the top*/
         /*Start header*/
     }
-    
+    .navbar{
+        min-height: 80px;
+    }
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+    }
     .row {
         max-width: 1200px;
         margin: auto;
