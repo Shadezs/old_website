@@ -1,0 +1,82 @@
+.navbar{
+    min-height: 80px;
+}
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #0c0c0c;
+}
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+}
+#Picture{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#About{
+    padding-top: 10%;
+    padding-bottom: 80px;
+}
+#typewriter {
+    left: 0;
+    padding-top: 25%;
+    padding-bottom: 30%;
+    width: 12em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 390%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /*this controls the spacing from the top*/
+    /*Start header*/
+}
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+.image {
+    padding-right: 20%;
+    position: relative;
+}
+.about {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: -30%;
+}
+
+.about-cont {
+    font-size: 15px;
+} .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+  }
+
+.column img {
+    margin-left: 35%;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.pictures {
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: -50%;
+}
+.col-md-12 {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+#sticky-footer {
+    flex-shrink: 0;
+}
